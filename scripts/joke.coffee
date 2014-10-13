@@ -2,21 +2,21 @@
 #   Joke commands.
 #
 # Commands:
-#   ‚Ê‚é‚Û - You reply with, "¶Ş¯" When you post a "‚Ê‚é‚Û" word.
+#   ã¬ã‚‹ã½ - You reply with, "ï½¶ï¾ï½¯" When you post a "ã¬ã‚‹ã½" word.
 #
 # Notes:
-#   ƒlƒ^/ƒWƒ‡[ƒNŒn‚Ìbot‘S”Ê
+#   ãƒã‚¿/ã‚¸ãƒ§ãƒ¼ã‚¯ç³»ã®botå…¨èˆ¬
  
 module.exports = (robot) ->
-  robot.hear /‚Ê‚é‚Û/, (msg) ->
+  robot.hear /ã¬ã‚‹ã½/, (msg) ->
     msg.send """
 ```
-   ƒ©Qƒ©     __
-i  EÍEj  | | ¶Ş¯
- ‚Æ     j  | |
-  ‚x /ƒm     l
-   / j    < >   _ƒ©  ¿
-Q/‚µ'   ^^  ‚uM„DLj/
-iQƒtœc             / ©>> @#{msg.message.user.name}
+   Î›ï¼¿Î›     ï¼¼ï¼¼
+ï¼ˆ  ãƒ»âˆ€ãƒ»ï¼‰  | | ï½¶ï¾ï½¯
+ ã¨     ï¼‰  | |
+  ï¼¹ /ãƒ     äºº
+   / ï¼‰    < >   _Î›  âˆ©
+ï¼¿/ã—'   ï¼ï¼  ï¼¶ï½€Ğ”Â´ï¼‰/
+ï¼ˆï¼¿ãƒ•å½¡             / â†>> @#{msg.message.user.name}
 ```
   """
